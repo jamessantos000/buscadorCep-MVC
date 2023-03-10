@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.form-content {
+	display: flex;
+}
+
+.frm {
+	margin-right: 15px;
+}
+
+.callback {
+	width: 50vh;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.callback input {
+	margin-bottom: 10px;
+}
